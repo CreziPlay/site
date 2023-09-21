@@ -1,0 +1,46 @@
+nav{
+background: #20A44D;
+}
+
+.nav_bar{
+display: flex;
+justify-content: space-between;
+}
+.logo{
+display: flex;
+align-items: center;
+}
+.txt40{
+color: white;
+font-size: 40px;
+font-family: "Montserrat-Bold";
+}
+.sotseti>ul{
+display: flex;
+list-style: none;
+gap: 40px;
+}
+
+.sotseti>ul>li{
+background: black;
+list-style: none;
+border-radius: 999px;
+width: 56px;
+height: 56px;
+display: flex;
+vertical-align: middle;
+text-align: center;
+align-items: center;
+}
+.sotseti>ul>li>a{
+height: 100%;
+width: 100%;
+display: flex;
+vertical-align: middle;
+text-align: center;
+align-items: center;
+}
+.sotseti>ul>li>a>i{
+margin: auto;
+color: white;
+	}

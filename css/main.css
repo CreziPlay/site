@@ -1,0 +1,274 @@
+main{
+background-color: #B5C6B8;
+padding-bottom:  5%;
+}
+
+
+.cart{
+background-color: transparent;
+border: solid 3px #567A5C;
+border-radius: 61px ;
+padding-bottom: 10%;
+padding-left: 10%;
+padding-right: 10%;
+text-align: center;
+width: 75%;
+}
+.cart:hover{
+	cursor: grab;
+}
+.zag_ysl>h1{
+font-size: 64px;
+
+}
+.cont_ysl{
+display: grid;
+grid-template-columns: 19% 50%  19%;
+grid-gap: 5%;
+align-items: center;
+margin-top: 5%
+}
+
+.cirl_cart{
+position: relative;	
+overflow: hidden;
+border-radius: 999px;
+
+max-width: 311px;
+
+}
+
+.cart__img{
+margin-top: 5%;
+}
+.zag_cart{
+margin-top: 5%;
+margin-bottom: 5%;
+font-family: "Montserrat-Bold";
+font-size: 24px;
+text-align: center;
+
+}
+.txt_cart{
+text-align: center;
+
+}
+.btn_cart{
+margin-top: 5%;
+
+}
+
+.btn_cart:hover>li{
+background: transparent;
+color: black;
+border: solid 3px #567A5C;
+cursor: pointer;
+}
+.btn_cart:hover>li>a{
+color: black;
+
+}
+
+.btn_cart>li{
+background-color:  #567A5C;
+border-radius: 90px;
+width: 180px;
+height: 44px;
+margin: auto;
+display: flex;
+border: solid 3px #567A5C;
+transition-duration: 0.25s;
+}
+.btn_cart>li>a{
+margin: auto;
+color: white;
+
+}
+
+.cont_zap__abon{
+display: grid;
+grid-template-columns: 19% 50% 19%;
+grid-gap: 5%;
+align-items: center;
+margin-top: 5%
+}
+.ab__zapis{
+font-family: "Montserrat-SemiBold";	
+font-size: 48px;
+margin: auto;
+}
+.Buy_form{
+background-color: #567A5C;
+color: white;
+height: 70px;
+width: 250px;
+border-radius: 90px;
+border: solid 3px #567A5C;
+font-size: 40px;
+font-family: "Montserrat-Medium";
+transition-duration: .25s;
+}
+.Buy_form:hover{
+background: transparent;
+border: solid 3px #567A5C;	
+cursor: pointer;
+color: black;
+}
+.Buy{
+text-align: center;
+
+}
+.forma{
+background-color: transparent;
+border: solid 3px #567A5C;
+border-radius: 60px;
+}
+.cont_forms{
+padding-left: 15%;
+padding-right: 15%;
+
+
+}
+form{
+padding-left: 8%;
+padding-right: 8%;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+.line_form{
+	align-items: center;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.form_txt{
+font-size: 24px;
+font-family: "Montserrat-Medium";
+
+}
+.line_form>input{
+background-color: #D9D9D9;
+border: solid 2px #567A5C;
+border-radius: 99px;
+height: 50px;
+}
+.zapis_btn{
+	background-color: transparent;
+	border-radius: 90px;
+	border: solid 3px #567A5C; 
+	width: 100%;
+	height: 80px;
+	color: black;
+	font-size: 36px;
+	font-family: "Montserrat-Medium";
+	margin-bottom: 5%;
+	transition-duration: .25s;
+}
+.abon_btn{
+	background-color: #567A5C;
+	border-radius: 90px;
+	border: solid 3px #567A5C;  
+	width: 100%;
+	height: 80px;
+	color: white;
+	font-size: 36px;
+	font-family: "Montserrat-Medium";
+	transition-duration: .25s;
+
+}
+.onas_cont{
+display: grid;
+grid-template-columns: 19% 55% 19%;
+grid-gap: 5%;
+margin-top: 5%;
+
+}
+.txt_ons{
+	font-size: 32px;
+	font-family: "Montserrat-Medium";
+}
+.img_onas{
+display: grid;
+position: relative;
+grid-template-columns: 50% 50%;
+
+
+}
+.sp_ys{
+	display: none;
+}
+.zapis_btn:hover{
+background: #567A5C;
+cursor: pointer;
+color: white;
+}
+.swiper {
+width: 100%;
+
+}
+.btns_sld{
+display: flex;
+
+position: relative;
+height: 25%;
+
+}
+.btns_sld>img{
+	position: absolute;
+	-moz-user-select: none; 
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+div>.swiper-button-next{
+	position: static;
+	width: 50%;
+	margin: auto;
+
+}
+div>.swiper-button-prev{
+	position: static;
+	width: 50%;
+	margin: auto;
+}
+div>.swiper-button-next:after{
+	content: '';
+}
+div>.swiper-button-prev:after{
+	content: '';
+}
+.swiper2{
+	overflow: hidden;
+}
+
+.zapis_btn:hover{
+background: #567A5C;
+cursor: pointer;
+color: white;
+}
+.btns_forms>#abon_btn:hover{
+background: #567A5C;
+cursor: pointer;
+color: white;
+}
+.btn_buy_form{
+text-align: center;
+
+
+}
+
+#zapis_zag{
+	display: none ;
+}
+.forma_zapis{
+	display: none;
+	border: solid 3px #567A5C;
+	border-radius: 60px;
+}
+
+.forma_abon{
+	border: solid 3px #567A5C;
+	border-radius: 60px;
+}

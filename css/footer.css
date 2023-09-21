@@ -1,0 +1,19 @@
+footer{
+	background: #567a5c;
+	padding-top: 1%;
+}
+.cont_footer{
+	display: flex;
+	justify-content: space-between;
+	color: black;
+	align-items: center;
+}
+.cont_footer>li>a>i{
+	color: white;
+}
+.cont_footer>p{
+	font-size: 20px;
+	color: white;
+	font-family: "Montserrat-Medium";
+	text-align: center;
+}
